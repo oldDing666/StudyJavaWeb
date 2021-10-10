@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>RegistServlet</servlet-name>
-        <servlet-class>com.afuya.web.RegistServlet</servlet-class>
+        <servlet-class>com.RegistServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -16,7 +16,7 @@
 
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.afuya.web.LoginServlet</servlet-class>
+        <servlet-class>com.LoginServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
