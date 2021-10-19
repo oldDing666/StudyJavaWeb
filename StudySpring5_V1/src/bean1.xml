@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    <bean id="user" class="com.afuya.pojo.User">-->
+<!--        <property name="name" value="abc"></property>-->
+<!--    </bean>-->
+
+<!--    <bean id="user" class="com.afuya.pojo.User">-->
+<!--        <property name="name" value="abc"></property>-->
+<!--        <property name="dog">-->
+<!--            <bean id="dogName" class="com.afuya.pojo.Dog">-->
+<!--                <property name="dogName" value="xiaohua"></property>-->
+<!--            </bean>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+    <bean id="user" class="com.afuya.pojo.User" scope="prototype">
+        <property name="name" value="abc"></property>
+        <property name="dog" ref="dogName"></property>
+    </bean>
+
+    <bean id="dogName" class="com.afuya.pojo.Dog">
+        <property name="dogName" value="xiaoming"></property>
+    </bean>
+
+    <bean id="order" class="com.afuya.pojo.Order"></bean>
+</beans>
