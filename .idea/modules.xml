@@ -4,8 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/06_servlet/06_servlet.iml" filepath="$PROJECT_DIR$/06_servlet/06_servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudyJavaWebV1.iml" filepath="$PROJECT_DIR$/StudyJavaWebV1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudySpring5_V1/StudySpring5_V1.iml" filepath="$PROJECT_DIR$/StudySpring5_V1/StudySpring5_V1.iml" />
       <module fileurl="file://$PROJECT_DIR$/bookV1/bookV1.iml" filepath="$PROJECT_DIR$/bookV1/bookV1.iml" />
       <module fileurl="file://$PROJECT_DIR$/bookV2/bookV2.iml" filepath="$PROJECT_DIR$/bookV2/bookV2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookV3/bookV3.iml" filepath="$PROJECT_DIR$/bookV3/bookV3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookV4/bookV4.iml" filepath="$PROJECT_DIR$/bookV4/bookV4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookV5/bookV5.iml" filepath="$PROJECT_DIR$/bookV5/bookV5.iml" />
     </modules>
   </component>
 </project>
